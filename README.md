@@ -49,14 +49,6 @@ lib/
 2. Enter a city name in the provided text field.
 3. Click the "Get Weather" button to fetch and display the weather information.
 
-## Testing
-
-Thoroughly test the application to ensure functionality and error handling:
-
-```bash
-flutter test
-```
-
 ## Dependencies
 
 - [Dio](https://pub.dev/packages/dio): A powerful HTTP client for Dart.
@@ -78,4 +70,3 @@ Feel free to contribute to this project. Follow the [contribution guidelines](CO
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-```
