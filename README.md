@@ -12,7 +12,7 @@ To run this project locally, follow these steps:
 
 ```bash
 git clone https://github.com/mahmoud-badwy/weather_app.git
-cd your-project
+cd weather_app
 flutter pub get
 flutter run
 ```
