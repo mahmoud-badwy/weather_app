@@ -15,11 +15,13 @@ git clone https://github.com/your-username/your-project.git
 cd your-project
 flutter pub get
 flutter run
-Project Structure
+```
+
+## Project Structure
+
 The project is organized using the MVVM pattern:
 
-kotlin
-Copy code
+```
 lib/
   data/
     model/
@@ -32,32 +34,48 @@ lib/
   ui/
     screens/
       weather_screen.dart
-Features
-User-friendly UI for entering city names and fetching weather data.
-Integration with the OpenWeatherMap API for accurate weather information.
-Efficient state management using Cubit to handle different app states.
-Follows MVVM architecture for a clean and maintainable codebase.
-Usage
-Launch the app on your preferred Flutter environment (emulator or physical device).
-Enter a city name in the provided text field.
-Click the "Get Weather" button to fetch and display the weather information.
-Testing
+```
+
+## Features
+
+- User-friendly UI for entering city names and fetching weather data.
+- Integration with the OpenWeatherMap API for accurate weather information.
+- Efficient state management using Cubit to handle different app states.
+- Follows MVVM architecture for a clean and maintainable codebase.
+
+## Usage
+
+1. Launch the app on your preferred Flutter environment (emulator or physical device).
+2. Enter a city name in the provided text field.
+3. Click the "Get Weather" button to fetch and display the weather information.
+
+## Testing
+
 Thoroughly test the application to ensure functionality and error handling:
 
-bash
-Copy code
+```bash
 flutter test
-Dependencies
-Dio: A powerful HTTP client for Dart.
-Equatable: Simplify equality comparisons for complex Dart objects.
-Flutter Bloc: Flutter package for managing state using the BLoC pattern.
-Contributing
-Feel free to contribute to this project. Follow the contribution guidelines.
+```
 
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
+## Dependencies
 
-css
-Copy code
+- [Dio](https://pub.dev/packages/dio): A powerful HTTP client for Dart.
+- [Equatable](https://pub.dev/packages/equatable): Simplify equality comparisons for complex Dart objects.
+- [Flutter Bloc](https://pub.dev/packages/flutter_bloc): Flutter package for managing state using the BLoC pattern.
 
-Feel free to copy the entire content a
+## Contact
+
+Feel free to contact me for any inquiries or collaboration:
+
+- Email: [mahmoudbadwysliem@gmail.com](mailto:mahmoudbadwysliem@gmail.com)
+- Facebook: [Mahmoud Badwy](https://www.facebook.com/mahmoud.badwy25)
+- LinkedIn: [Mahmoud Badwi](https://www.linkedin.com/in/mahmoud-badwi/)
+
+## Contributing
+
+Feel free to contribute to this project. Follow the [contribution guidelines](CONTRIBUTING.md).
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+```
