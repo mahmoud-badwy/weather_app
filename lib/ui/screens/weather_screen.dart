@@ -1,25 +1,8 @@
+// Update lib/ui/screens/weather_screen.dart
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-
 import '../../presentation/viewmodel/weather_view_model.dart';
 
-void main() {
-  runApp(const MyApp());
-}
-
-class MyApp extends StatelessWidget {
-  const MyApp({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
-      home: BlocProvider(
-        create: (context) => WeatherViewModel(),
-        child: WeatherApp(),
-      ),
-    );
-  }
-}
 
 class WeatherApp extends StatelessWidget {
   final TextEditingController _cityController = TextEditingController();
@@ -68,8 +51,7 @@ class WeatherApp extends StatelessWidget {
                       ],
                     );
                   case WeatherErrorState:
-                    return Text(
-                        'Error: ${(state as WeatherErrorState).errorMessage}');
+                    return Text('Error: ${(state as WeatherErrorState).errorMessage}');
                   default:
                     return Container(); // Handle other states if needed
                 }
