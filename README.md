@@ -11,7 +11,7 @@ This Flutter weather app provides a simple and intuitive interface for users to 
 To run this project locally, follow these steps:
 
 ```bash
-git clone https://github.com/your-username/your-project.git
+git clone https://github.com/mahmoud-badwy/weather_app.git
 cd your-project
 flutter pub get
 flutter run
